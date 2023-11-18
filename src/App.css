@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:wght@300;400;600;700&family=Work+Sans:wght@300&display=swap');
+
+body {
+    background-color: #23252C;
+}
+
+
+
+#root {
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.image {
+    width: 317px;
+    border-radius: 6px;
+
+}
+
+/* Main content */
+
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    font-family: 'inter';
+    max-width:317px;
+}
+
+
+h3 {
+    background-color: #F5F5F5;
+    margin-bottom: 3%;
+
+}
+
+
+p {
+    background-color: #F5F5F5;
+    margin: 0;
+    font-size: 11px;
+    color: blueviolet;
+}
+
+
+.button-container {
+    background-color: #F5F5F5;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: 15px 0 0 0;
+}
+
+.linkedin {
+    background-color: #297FE5;
+    width: 500px;
+    height: 34px;
+    border-radius: 6px;
+    margin: 5px;
+    border: none;
+    color: white;
+}
+
+.email {
+    background-color: white;
+    width: 500px;
+    height: 34px;
+    border-radius: 6px;
+    margin: 5px;
+    border:  #D1D5DB;
+    outline-width: 4px;
+
+}
+
+
+
+.text-content {
+    background-color: #F5F5F5;
+    word-wrap: break-word;
+    padding: 10px;
+    margin-top: 0%;
+    border-radius: 6px;
+    width: 250px;
+    margin: 20px 0 20px 0;
+}
+
+
+h4 {
+    background-color: #F5F5F5;
+    margin: 0%;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+.footer {
+    background-color:#D5D4D8 ;
+}
+
+.gitcone {
+    width: 30px;
+    background-color: #F5F5F5;
+}
+
+
+/* media query for screen with a maximum width of 600px */
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+    .button-container {
+        width: 100%;
+    }
+    .linkedin, .email {
+        width: 100%;
+      }
+    
+    .text-content {
+        width: 100%; 
+      }
+}
